@@ -14,8 +14,4 @@ while c > 0:
         c -= 1
 print (f)
 
-
-#     fatoria=numero*(numero-1)
-#     fatoria1=fatoria1+fatoria
-#     numero=numero-1
-#     print(fatoria,fatoria1,numero)
+n2=int(input('Digite o numero que voce quer fatorar:  '))
