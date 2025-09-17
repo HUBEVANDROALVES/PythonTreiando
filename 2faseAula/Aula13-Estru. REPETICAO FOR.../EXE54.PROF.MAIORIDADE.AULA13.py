@@ -13,4 +13,4 @@ for i in range(qtd):
     else:
         demenor += 1
 
-print('Temos {} pessoas de mair e {} de menor'.format(demaior,demenor))
+print('Temos {} pessoas de maior e {} de menor'.format(demaior,demenor))

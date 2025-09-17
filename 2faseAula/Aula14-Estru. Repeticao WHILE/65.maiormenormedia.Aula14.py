@@ -2,7 +2,7 @@
 cont=media=soma=maior=menor=0
 sair=''
 while sair!='N':
-    num = int(input('Digite um numero '))
+    num = int(input('Digite um numero: '))
     cont += 1
     soma += num
     if cont==1:
