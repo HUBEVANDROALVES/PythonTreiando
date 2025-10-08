@@ -1,4 +1,4 @@
-
+# lista de entrada numeros aleatorio e saida lista de par ou impar. 
 
 lista=[]
 listapar=[]
