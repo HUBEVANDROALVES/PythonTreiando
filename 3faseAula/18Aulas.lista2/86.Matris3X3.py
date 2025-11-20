@@ -13,7 +13,6 @@ for a in range(3):
 for linha in matriz:
     for elemento in linha:
         print(f"{elemento:^5}", end="")  # ^5 centraliza em 5
-
     print()  # quebra de linha
 
 
