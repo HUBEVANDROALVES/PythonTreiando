@@ -6,15 +6,19 @@
 
 from random import randint
 from time import  sleep
+from operator import itemgetter
 jogador={}
 
 for i in range(1,5):
     dado = randint(1,6)
-    jogador[f"Jogador{i}"]=dado
+    jogador[f"Jogador {i}"]=dado
 print ("Resultados: ")
 for k, v in jogador.items():#
     print(f"{k}:{v}")
 
-ranking = sorted(jogador.items())
+ranking = sorted(jogador.items(), key=itemgetter(0), reverse=True)
 
+print("\nRanking final:")
+for pos, (k, v) in enumerate(ranking, start=1): #
+    print(f"{pos}º lugar: {k} com {v}")         #
 

@@ -13,9 +13,9 @@ for c in range(0, 3):
     estado['sigla']=str(input("Sigla do Estado: "))
     estado['Regiao']=str(input("Qual a regiao: "))
     brasil.append(estado.copy()) # cria a copia
-for e in brasil:
+for e in brasil:  # pecorre a linha
     for v, k in e.items():
         print(f"O Campo  {v} tem o valor {k}.")
-    for b in e.values():
+    for b in e.values():  # retorna so os valores
         print(b, end=" ")
     print()
